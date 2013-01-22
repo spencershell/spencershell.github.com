@@ -1,0 +1,251 @@
+/* Just loadin' them webfonts... */
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('BebasNeue-webfont.eot');
+    src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue-webfont.woff') format('woff'),
+         url('BebasNeue-webfont.ttf') format('truetype'),
+         url('BebasNeue-webfont.svg#Bebas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pictos';
+	src: url('pictos-web.eot');
+	src: local('☺'), url('pictos-web.woff') format('woff'), url('pictos-web.ttf') format('truetype'), url('pictos-web.svg#webfontIyfZbseF') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  clear: both;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote {
+  quotes: none;
+}
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+del {
+  text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a img { border: none; }
+
+
+/* CSS */
+
+p {
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+hyphens: auto;
+}
+
+#assist {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	padding: 5px 20px;
+	height: 35px;
+		/* Fallback for web browsers that don't support RGBa */
+	background-color: rgb(0, 0, 0);
+		/* RGBa with 0.6 opacity */
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #ccc;
+	font-size: 0.5em;
+	}
+
+#container {
+	width: 55%;
+	}
+
+span {
+	font-family: 'Pictos';
+	font-size: 15em;
+	}
+
+body {
+	font-family: "Bitter", Georgia, serif;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.2em;
+	}
+
+h2 {
+	font-family: "Bebas", Helvetica, Arial, sans-serif;
+	font-size: 75px;
+	padding-top: 10px;
+	line-height: 0.8em;
+	}
+
+.content-frame{
+	width: 70%;
+	display: block;
+	margin: auto;
+	}
+
+.slide:hover{
+	cursor: pointer;}
+		
+.first{
+	background: #ffffff;
+	vertical-align: top;
+	color: #212224;
+	}
+	
+.first h2 {
+	color:#009999;
+	}
+	
+h2#ccon {
+	padding-bottom: 30px;
+	}
+	
+.second{
+	background: #212225;
+	vertical-align: top;
+	color: #ffffff;
+	}
+	
+.second h2 a:link{
+	color: #3a3c40;
+	text-decoration: none;
+	}
+	
+.second h2 a:hover{
+	color: #fff !important;
+	text-decoration: none;
+	}
+	
+.second h2 a:visited{
+	color: #3a3c40;
+	text-decoration: none;
+	}
+
+.third{
+	background: #009999;
+	vertical-align: top;
+	color: #ffffff;
+	}
+	
+.third h2 a:link{
+	color: #ffffff;
+	text-decoration: none;
+	}
+	
+.third h2 a:hover{
+	color: #fff !important;
+	text-decoration: none;
+	}
+	
+.third h2 a:visited{
+	color: #ffffff;
+	text-decoration: none;
+	}
+	
+
+.fourth{
+	background: #ffffff;
+	vertical-align: top;
+	color: #212224;
+	}
+	
+.fourth h2 a:link{
+	color: #009999;
+	text-decoration: none;
+	}
+	
+.fourth h2 a:hover{
+	color: #009999 !important;
+	text-decoration: none;
+	}
+	
+.fourth h2 a:visited{
+	color: #009999;
+	text-decoration: none;
+	}
+	
+.fifth{
+	background: #212225;
+	vertical-align: top;
+	color: #ffffff;
+	}
+	
+.fifth h2 a:link{
+	color: #3a3c40;
+	text-decoration: none;
+	}
+	
+.fifth h2 a:hover{
+	color: #fff !important;
+	text-decoration: none;
+	}
+	
+.fifth h2 a:visited{
+	color: #3a3c40;
+	text-decoration: none;
+	}
+
+.sixth{
+	background: #009999;
+	vertical-align: top;
+	color: #ffffff;
+	}
+	
+@media screen and (max-width: 430px) {
+
+span {
+	font-size: 10em;
+	}
+	
+body {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.2em;
+	}
+
+h2 {
+	font-size: 45px;
+	padding-top: 10px;
+	line-height: 0.8em;
+	}
+
+#assist {
+	font-size: 0.7em;
+	height: 20px;
+	}
+
+}
