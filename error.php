@@ -78,7 +78,6 @@ if ($title == false || strlen($status) != 3) {
 </td>
      </tr>
 </table>
- <a href="http://spencer-shell.com">  <img src="404.png" width="500" height="150"/></a>
       		
 				
 </body>
